@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../_fonts/Tirilium_Web/TitilliumWeb-Bold.ttf");
+}
+
+
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+    
+    
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;    
+}
+
+/* configurações do cabeçalho  ***********************************************  */
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1020px;
+    top: 20px;
+}
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/veganIcone.jpg") no-repeat 1px 40px;
+}
+
+header#cabecalho h1{
+    padding: 0px;
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    margin-bottom: 0px; 
+}
+
+header#cabecalho h2{
+    padding: 0px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    margin-top: 0px;
+   
+}
+
+/*  ******************************************************************************  */
+
+
+
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+
+/* Formatação de Imagens ****************************** */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 1px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    
+   
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* ***************************************************** ****** */
+
+
+/* Formatação do menu ***************************************/
+
+nav#menu {
+    display: block;
+}
+
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+}
+
+nav#menu li {
+    display:  inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    
+}
+
+nav#menu li:hover {
+    background: #606060;
+    
+}
+nav#menu h1 {
+    display: none;
+    
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+        
+}
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+/* ********************************************************  */
+
+section#corpo {
+    display: block;
+    width: 450px;
+    float: left;
+    border-right: 1px solid #606060 ;
+    padding-right: 15px;
+    
+}
+
+section#corpoHistoria {
+    display: block;
+    width: 860px;
+    float: left;
+    border-right: 1px solid #606060 ;
+    padding-right: 15px;
+    border-left: 1px solid #606060 ;
+    padding-left: 15px;    
+    
+}
+
+aside#lateral {
+    display: block;
+    width: 350px;
+    float: right;
+        
+}
+
+footer#rodape {
+    clear: both; 
+    border-top: 1px solid #606060 ;
+     text-align: center;
+  
+}
+
+/*Formatação da tabela pagina historia *********************/
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+table#tabelaspec th {
+    border: 1px solid #606060;
+    padding: 10px;
+    
+}
+
+table#tabelaspec th.cb {
+    color: #ffffff;
+    background: #606060;
+    font-weight: bold;
+}
+
+/* ******************************************************* */
+
+
+
+
+
+
+
+
